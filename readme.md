@@ -27,6 +27,7 @@
         - data_segmentation.md
     - data_synthesizer
         - data_creator.py
+        - utils.py
         - data
             - dataset.csv
     - machine_learning
