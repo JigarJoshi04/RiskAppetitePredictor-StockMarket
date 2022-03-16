@@ -12,8 +12,8 @@
 <li> Mid risk:
 
     - Age => 18 to 30 (40% of this data)
-    - Age => 30 to 50 (30% of this data)
-    - Age => 50 to 80 (20% of this data)
+    - Age => 30 to 50 (35% of this data)
+    - Age => 50 to 80 (25% of this data)
 
 <li> Low risk:
 
