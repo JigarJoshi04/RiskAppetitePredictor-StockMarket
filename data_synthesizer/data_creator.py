@@ -33,7 +33,7 @@ def make_highrisk_dataframe(no_of_high_risk_datapoints):
     highrisk_df["no_of_dependents"] = make_no_of_dependents(
         no_of_high_risk_datapoints, no_of_dependents_distribution
     )
-
+    highrisk_df["risk"] = [2] * no_of_high_risk_datapoints
     highrisk_df.to_csv("data/highrisk_dataset.csv")
 
     return highrisk_df
@@ -62,7 +62,7 @@ def make_midrisk_dataframe(no_of_mid_risk_datapoints):
     midrisk_df["no_of_dependents"] = make_no_of_dependents(
         no_of_mid_risk_datapoints, no_of_dependents_distribution
     )
-
+    midrisk_df["risk"] = [1] * no_of_mid_risk_datapoints
     midrisk_df.to_csv("data/midrisk_dataset.csv")
 
     return midrisk_df
@@ -91,7 +91,7 @@ def make_lowrisk_dataframe(no_of_low_risk_datapoints):
     lowrisk_df["no_of_dependents"] = make_no_of_dependents(
         no_of_low_risk_datapoints, no_of_dependents_distribution
     )
-
+    lowrisk_df["risk"] = [0] * no_of_low_risk_datapoints
     lowrisk_df.to_csv("data/lowrisk_dataset.csv")
 
     return lowrisk_df
