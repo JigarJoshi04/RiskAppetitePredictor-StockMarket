@@ -40,4 +40,16 @@ It is evident that their will be no public dataset available to cater ou data ne
         - model
             - model.sav
             - model_scaler.pkl
-    - main.py
+
+## Steps to run
+    - create virtualenv (optional)
+    - pip install -r requirements.txt
+    - cd machine_learning
+    - python predictor.py
+
+    Change values in the demo example given and experiment.
+    Enjoy!
+
+## Contribution
+    This project is no longer maintained and is provided in AS-IS condition.
+    
